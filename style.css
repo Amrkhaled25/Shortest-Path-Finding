@@ -1,0 +1,62 @@
+@import url("https://fonts.cdnfonts.com/css/games");
+body {
+  background-color: bisque;
+}
+#arr {
+  border-spacing: 0;
+  position: relative;
+  margin: auto;
+  border: 1px solid rgb(139, 48, 243);
+}
+
+.cells {
+  background-color: #f0f8ff;
+  border: 0.5px solid rgb(181, 120, 251);
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  font-size: 12px;
+  transition: all 0.3s ease-out;
+}
+#arr :hover {
+  background-color: grey;
+}
+.msg {
+  position: relative;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Games", sans-serif;
+}
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 10px;
+}
+
+.button {
+  width: 140px;
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #2ee59d;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
